@@ -1,0 +1,24 @@
+/*
+working on your code sometimes you can stylize something more than one time
+to the brwoser choose what will be showd, it uses the most especified rule
+*/
+
+/*
+the more specifiet the style more power it will have to change
+
+id
+class
+element
+*/
+
+p{
+color: blue;
+}
+
+p hr{
+color: red;
+}
+
+p#n1{
+color: yellow;
+}

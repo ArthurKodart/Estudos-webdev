@@ -1,0 +1,4 @@
+/*Selects all the elements that are decendents to others sons grandsons*/
+p span {
+    color: blueviolet;
+}

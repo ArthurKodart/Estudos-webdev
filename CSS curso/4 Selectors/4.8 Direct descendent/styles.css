@@ -1,0 +1,5 @@
+/*Selects all the elements that imediatly child ignoring grandsons*/
+p> span {
+    background-color: red;
+    color: blueviolet;
+}

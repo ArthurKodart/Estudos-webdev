@@ -1,0 +1,59 @@
+/*Selects elements in certain state, like cheked or hover*/
+/* 1. Estado normal do botão */
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 2. Quando o mouse passa por cima (Hover) */
+button:hover {
+  background-color: #2980b9; /* Fica um pouco mais escuro */
+}
+
+/* 3. Quando o botão é APERTADO (Active) */
+button:active {
+  background-color: #1c598a; /* Fica ainda mais escuro */
+  transform: scale(0.95); /* Dá uma leve encolhida, simulando o afundamento do clique */
+}
+
+/*==================================================
+        LISTA DE PSEUDO-CLASSES CSS
+==================================================
+
+1. ESTADO E INTERAÇÃO
+--------------------------------------------------
+:hover    - Quando o cursor do mouse passa por cima do elemento.
+:active   - No exato momento em que o elemento está sendo clicado.
+:focus    - Quando o elemento recebe foco (ex: clicar ou navegar com 'Tab' até um input).
+:visited  - Links que já foram visitados pelo usuário.
+:link     - Links que ainda não foram visitados.
+
+2. ESTRUTURA E HIERARQUIA (Ótimos para listas e tabelas)
+--------------------------------------------------
+:first-child     - Seleciona se ele for o primeiro filho do seu elemento pai.
+:last-child      - Seleciona se ele for o último filho.
+:nth-child(n)    - Seleciona o enésimo filho, independentemente da tag (ex: nth-child(2) pega o 2º elemento).
+:nth-of-type(n)  - Seleciona o enésimo elemento de um TIPO específico (ex: p:nth-of-type(2) pega o 2º <p>, ignorando outras tags no meio).
+:only-child      - Seleciona apenas se for o único filho dentro do pai.
+:first-of-type   - O primeiro elemento daquele tipo (ex: o primeiro <p> dentro de uma div).
+:last-of-type    - O último elemento daquele tipo.
+
+3. FORMULÁRIOS
+--------------------------------------------------
+:checked  - Checkboxes, radio buttons ou options que estão marcados.
+:disabled - Elementos de formulário que estão desativados (atributo disabled).
+:enabled  - Elementos de formulário que estão prontos para uso.
+:required - Campos obrigatórios (atributo required).
+:valid    - Campos onde o valor digitado está correto (ex: um e-mail com formato certo).
+:invalid  - Campos onde o valor digitado está incorreto.
+:placeholder-shown - Quando o placeholder está visível (o usuário ainda não digitou nada).
+
+4. ESPECIAIS / ÚTEIS
+--------------------------------------------------
+:not(x)   - Negação. Aplica a todos, exceto ao 'x' (ex: button:not(.desativado)).
+:target   - Estiliza o elemento alvo apontado na URL (ex: meudominio.com/#secao-1).
+:empty    - Elementos que não têm nenhum conteúdo dentro (nem texto, nem outras tags).*/

@@ -1,0 +1,35 @@
+/*selects a specfied part of an element*/
+p::first-letter{
+    font-weight: bold;
+    font-size: 100px;
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*==================================================
+        LISTA DE PSEUDO-ELEMENTOS CSS
+==================================================
+
+* Nota: A sintaxe moderna do CSS3 usa dois pontos (::) para 
+  pseudo-elementos, ajudando a diferenciá-los das pseudo-classes (:).
+
+1. GERAÇÃO DE CONTEÚDO (Os mais poderosos)
+--------------------------------------------------
+::before  - Cria um elemento virtual imediatamente ANTES do conteúdo do elemento principal.
+::after   - Cria um elemento virtual imediatamente DEPOIS do conteúdo do elemento principal.
+            * Importante: Ambos EXIGEM o uso da propriedade 'content: "";' para funcionarem.
+
+2. TIPOGRAFIA E TEXTO
+--------------------------------------------------
+::first-letter - Estiliza apenas a primeira letra de um bloco de texto (ótimo para criar letras capitulares de livros).
+::first-line   - Estiliza a primeira linha de um texto. O tamanho dessa linha se adapta dinamicamente à largura da tela.
+
+3. INTERAÇÃO E FORMULÁRIOS
+--------------------------------------------------
+::selection    - Altera o visual do texto quando o usuário o seleciona (destaca) com o mouse. (Você pode mudar a cor de fundo da seleção, por exemplo).
+::placeholder  - Permite mudar a cor, fonte e estilo do texto de dica (placeholder) dentro de um <input> ou <textarea>.
+
+4. LISTAS E COMPONENTES ESPECIAIS
+--------------------------------------------------
+::marker       - Estiliza o marcador de um item de lista (a "bolinha" do <ul> ou o número do <ol>). Permite mudar a cor ou o tamanho apenas do marcador.
+::backdrop     - Estiliza a área de fundo atrás de um elemento que foi aberto por cima de tudo (como a tela escura atrás de um elemento <dialog> ou um vídeo em tela cheia).*/

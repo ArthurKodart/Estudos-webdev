@@ -1,0 +1,4 @@
+/*Selects all elements with the specified atribute*/
+button[type="button"]{
+    color: red;
+}

@@ -1,0 +1,5 @@
+/*Selects all the elements that came imediatally after the others*/
+h1 + button {
+    background-color: red;
+    color: blueviolet;
+}

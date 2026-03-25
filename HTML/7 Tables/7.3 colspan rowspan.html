@@ -1,20 +1,26 @@
-<!-- sometimes to fit, or to create more complex layouts you can change
- how much space a cell takes up with colspan and rowspan -->
- <!-- first example we need to have more than one
-  mass atribute on a table -->
-  <table>
-    <thead>
-        <!-- to divide the table into sections put all elements you dont want 
-         to divide with rowspan and what you want with colspan -->
+<table border="1">
+  
+  <thead>
     <tr>
-        <th rowspan="2">1</th>
-        <th rowspan="2">1</th>
-        <th colspan="2">1</th>
-        <th rowspan="2">1</th>
+      <th colspan="2">Agenda do Dia</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td rowspan="2">Manhã</td>
+      <td>08:00 - Estudar HTML</td>
     </tr>
     <tr>
-        <th>2</th>
-        <th>2</th>
+      <td>10:00 - Fazer Exercícios</td>
     </tr>
-    </thead>
-  </table>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <th>Total:</th>
+      <td>2 Tarefas</td>
+    </tr>
+  </tfoot>
+
+</table>
