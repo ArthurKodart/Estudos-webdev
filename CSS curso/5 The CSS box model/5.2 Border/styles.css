@@ -1,0 +1,40 @@
+/*controls the border of the box*/
+/*you need to set all the 3 principal atributes to the border apears
+border-width: 5px;
+border-color: black;
+border-style: solid;
+
+you can also especify the corner you want:
+left rigth top bottom
+border-left-style: solid;
+
+
+*/
+
+#one {
+    background-color: BLUE;
+    width: 200px;
+    height: 200px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+#two {
+    background-color: RED;
+    width: 200px;
+    height: 200px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-left-style: dashed;
+}
+
+#tree {
+    background-color: YELLOW;
+    width: 200px;
+    height: 200px;
+    border: medium solid greenyellow;
+    border-radius: 5%;
+}

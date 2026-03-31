@@ -1,0 +1,5 @@
+/*sets the width and height of the  content area*/
+p {
+    width: 200px;
+    height: 200px;
+}
