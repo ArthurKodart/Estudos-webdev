@@ -1,0 +1,16 @@
+
+/*PADDING IS A SPACEMENT the envolves the elements container*/
+P {
+    background-color: red;
+    padding: 20PX;
+    /*if you dont especifit position the padding distance will be aplied in all
+    corners
+    padding-bottom: ;
+    padding-left: ;
+    padding-right: ;
+    padding-top: ;
+    
+    or just put the numbers
+    padding:10 20 30 40 (top rigth botton left); */
+    
+}
