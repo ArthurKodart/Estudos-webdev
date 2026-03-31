@@ -1,0 +1,50 @@
+/*existem unidades absolutas e relativas
+as absolutas são imutáveis por exemplo pixels*/
+html {
+    font-size: 20px;
+}
+
+/*relativas se adaptam automaticamente tendo um referencial
+são elas:
+% que fica com o temanho relativo ao pai
+serve mais para layouts*/
+
+body {
+    font-size: 90px;
+    width: 1000px;
+    height: 1000px;
+}
+p {
+    font-size: 50%;
+    width: 80%;
+    height: 70%;
+}
+
+/* EM que fica com o tamanho de fonte relativo ao pai
+serve tanto para textos quanto para botoes e outras coisas
+tipográficas, porem elas vão se somando e pode se perder o controle das mesmas*/
+
+/* EM fica relativo ao tamanho da fonte do pai */
+
+
+ul {
+  font-size: 1.5em;
+}
+
+li {
+  font-size: 2em;
+}
+
+
+/* REM que fica com o tamanho de fonte da raiz html
+serve tanto para textos quanto para botoes e outras coisas
+tipográficas, aqui tem um controle mais fácil*/
+
+
+ul {
+  font-size: 1.5rem;
+}
+
+li {
+  font-size: 2rem;
+}
