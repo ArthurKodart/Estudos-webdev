@@ -1,0 +1,44 @@
+/*the default position to every element on page doenst change at all*/
+#static{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    position: static;
+    right: 100px;
+}
+/*change the position based on where it should be if it was fixed*/
+#relative{
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+}
+/*stops to ocuping space and starts to use the father element as reference*/
+#absolute{
+    background-color: blue;
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    top: -10px;
+    left: 100px;
+    
+}
+/*fixed para de ocupar espaço e usa a tela de ref*/
+#fixed{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    right: 200px;
+}
+/*sticky fica normal ate o topo da tela chegar*/
+#sticky{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    right: 200px;
+}
