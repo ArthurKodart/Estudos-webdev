@@ -1,0 +1,19 @@
+/*pode aplicar transformações nos eixos x y z e 3d
+rotate gira o elemento, voce pode especificar o eixo
+skew deforma um pouco o elemento
+scale modifica a escala do elemento
+translate movimenta o elemento na tela*/
+h1 {
+    background-color: brown;
+    width: 200px;
+    height: 100px;
+    border-radius: 10%;
+    
+    /* Dica extra: para a cor da borda aparecer, você precisa definir uma espessura e um estilo para ela! */
+    border-style: solid; 
+    border-width: 2px;
+    border-color: blue;
+    
+    /* Transformações agrupadas em uma única linha e separadas por espaço */
+    transform: rotate(210deg) skew(20deg, 30deg) translateX(20px) scale(0.7);
+}
