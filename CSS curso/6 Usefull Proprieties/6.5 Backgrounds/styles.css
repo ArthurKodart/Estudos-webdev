@@ -1,0 +1,14 @@
+/*é possivel de se adicionar imagens no background de algo
+podemos pegar sua localização por url  background-image: url("");
+definir como ficará o formato     background-size: cover;
+definir um padrão de repetição background-repeat: round;
+e a posição onde uma imagem será cortada background-position: ;
+*/
+section{
+    width: 200px;
+    height: 200px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Oryctolagus_cuniculus_Tasmania_2.jpg/330px-Oryctolagus_cuniculus_Tasmania_2.jpg");
+    background-size: cover;
+    background-repeat: round;
+    background-position: ;
+}
