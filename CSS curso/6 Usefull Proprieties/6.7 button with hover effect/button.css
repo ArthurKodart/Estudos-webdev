@@ -1,0 +1,40 @@
+/* lests make a button */
+/*  first we need to ajust the container of the button
+in this case the  body */
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* we need to set the height to move the item to the middle */
+    height: 100vh;
+} 
+button{
+    background-color: blue;
+    color: orange;
+    font-family: sekuya, sans-serif;
+    /* lets decorate with some commum button
+    propriets */
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    /* we set the transition here
+    it make the animation we want to see happen
+    without it the change will be aplied in a instant
+     */
+    transition: all 0.2s;
+}
+
+/* we set the hover action in the button */
+button:hover{
+    /* change some proprietis */
+    background-color: brown;
+    color: white;
+    /* set some transformations */
+    /* scale to change the item scale */
+    transform: scale(1.1) ;
+    /* translate to move the item */
+    transform: translateY(-0.25em);
+    /* box shadow to make a shadow of the element */
+    box-shadow: 0em 0.5em 0.5em -0.4em red;
+}
