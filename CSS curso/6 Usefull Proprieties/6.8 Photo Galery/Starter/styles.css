@@ -1,0 +1,32 @@
+/* we want 3 images to fill a line so we need do divide the space by 3
+setting 30% for the width of each image
+now we need to separete those images
+we have 3 images ocuping 30% of the width of the page each (90%)
+so we have 100%-90%= 10% left to use
+só we can set the magins using it
+we need the space of left and rigth of each image to be ocuped properly
+6 spaces divided by the 10% of spaces left
+use the calc function to pick the value of the margin
+margin calc(10%6) */
+img {
+    width: 30%;
+    /* margin: 1.6666666%; */
+    margin: calc(10%/6);
+}
+
+/* set the font you want
+sete the size with em unit to it scale  
+use text transform to aply the uppercase property
+you can specfy a border boottom to make a line that separate things
+we set the width
+aply margin
+and padding*/
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+}
