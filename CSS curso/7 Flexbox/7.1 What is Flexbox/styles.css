@@ -1,0 +1,42 @@
+/* flexbox is a way to you organize the content inside some container
+with it you can:
+distribute space between diferent elements
+change the size
+move 
+make element X has more space than Y
+and flexing the size  when redimenzionize the page */
+
+/* in flexbox you have the concept of axis, you can manipulate them
+        (y) Cross Axis
+        ^
+        |
+        |
+        |
+        |
+--------|----------> (x) Main Axis
+        |
+        |
+        |
+        |
+        |         
+*/
+/* if we dont specificy it starts in row direction */
+body{
+    /* here we have our body */
+    background-color: aqua;
+    /* we "turn" the flexbox on using the command display:flex */
+    display: flex;
+}
+
+/* inside the body we put two divs setting their height and width 
+and diferencing the collors just to see*/
+div:nth-of-type(1){
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+div:nth-of-type(2){
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
