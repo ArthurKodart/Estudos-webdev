@@ -1,0 +1,43 @@
+
+body{
+    background-color: aqua;
+    display: flex;
+    min-height: 100vh; /* Ocupa 100% da altura da janela do navegador */
+    margin: 0;         /* Remove margens padrão que podem causar scroll */
+    flex-direction: column-reverse;
+    /* justify content controls the distribuction of the content on
+    MAIN AXIS
+    remember that the axis can be changed by the flex direction
+    but it will works in the same way 
+    
+    justify-content: flex-start; 
+    stays in the main axis order
+
+    justify-content: flex-end;
+    goes to the end of the main axis
+
+    justify-content: center;
+    align everything in the center
+
+    justify-content: space-between;
+    distribute the space between content separating then 
+
+    justify-content: space-around;
+    distribute the space around content but will have space separating them to the container
+
+    justify-content: space-evenly;
+    distribute the space between the content considering the border of the container
+    */
+    justify-content: space-around;
+ 
+}
+div:nth-of-type(1){
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+div:nth-of-type(2){
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
